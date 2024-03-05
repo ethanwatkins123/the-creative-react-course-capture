@@ -1,7 +1,13 @@
+// import pages
+import AboutUs from "./pages/AboutUs";
 import "./App.css";
 
 function App() {
-  return <>test</>;
+  return (
+    <div className="App">
+      <AboutUs />
+    </div>
+  );
 }
 
 export default App;
